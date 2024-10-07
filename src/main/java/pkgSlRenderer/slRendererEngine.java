@@ -27,6 +27,10 @@ public class slRendererEngine {
             rand_coords[cur_circle][CB] = my_rand.nextFloat();
             rand_coords[cur_circle][CA] = 1.0f;
 
+            rand_coords[cur_circle][CX] = (my_rand.nextFloat()*2-1)*(1-C_RADIUS);
+            rand_coords[cur_circle][CY] = (my_rand.nextFloat()*2-1)*(1-C_RADIUS);
+            rand_coords[cur_circle][CZ] = 0.0f;
+
         }
     }
 

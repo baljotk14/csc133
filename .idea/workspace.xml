@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97804e28-2262-45de-9189-d54942983b7e" name="Changes" comment="initialized slRendererEngine.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="97804e28-2262-45de-9189-d54942983b7e" name="Changes" comment="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle">
       <change beforePath="$PROJECT_DIR$/src/main/java/pkgSlRenderer/slRendererEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pkgSlRenderer/slRendererEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728289949334</updated>
       <workItem from="1728289950405" duration="3287000" />
-      <workItem from="1728323183396" duration="1506000" />
+      <workItem from="1728323183396" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="initialized slRendererEngine.java">
       <option name="closed" value="true" />
@@ -82,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728323356133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle">
+      <option name="closed" value="true" />
+      <created>1728324748215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728324748215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialized slRendererEngine.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialized slRendererEngine.java" />
+    <MESSAGE value="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle" />
   </component>
 </project>
