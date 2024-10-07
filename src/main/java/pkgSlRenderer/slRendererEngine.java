@@ -22,6 +22,10 @@ public class slRendererEngine {
         final int CX = 0, CY = 1, CZ = 2;
 
         for (int cur_circle = 0; cur_circle < MAX_CIRCLES; cur_circle++) {
+            rand_colors[cur_circle][CR] = my_rand.nextFloat();
+            rand_coords[cur_circle][CG] = my_rand.nextFloat();
+            rand_coords[cur_circle][CB] = my_rand.nextFloat();
+            rand_coords[cur_circle][CA] = 1.0f;
 
         }
     }
