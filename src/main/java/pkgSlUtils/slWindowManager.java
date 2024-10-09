@@ -6,7 +6,7 @@ import static org.lwjgl.system.MemoryUtil.NULL;
 public class slWindowManager {
 
     private long glfw_win = 0;
-    private static slWindowManager my_window = null;
+     private static slWindowManager my_window = null;
     private int[] windowSize = new int[2];
 
     private slWindowManager() {}
