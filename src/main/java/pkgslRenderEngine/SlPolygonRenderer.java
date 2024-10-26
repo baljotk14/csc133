@@ -25,7 +25,7 @@ public class SlPolygonRenderer extends slRenderer {
         this.polygonsToRender = polygons;
     }
 
-    // Method to generate a single polygon at a given center with specified properties
+    //Method to generate a single polygon at a given center with specified properties
     public void generatePolygon(float cx, float cy, int sides, float radius) {
         glBegin(GL_POLYGON);
         for (int i = 0; i < sides; i++) {
