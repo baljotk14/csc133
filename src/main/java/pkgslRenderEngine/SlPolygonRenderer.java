@@ -71,8 +71,8 @@ public class SlPolygonRenderer extends slRenderer {
         generatePolygonArray(possibleRows, possibleCols, sides);
     }
 
-    // Implement the abstract render methods
-    @Override
+    //Implement the abstract render methods
+
     public void render(int frameDelay, int rows, int cols) {
         int currentSides = 3;  // Start with triangles
         int maxSides = 20;     // Maximum number of sides
