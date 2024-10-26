@@ -33,7 +33,7 @@ public class Main {
                 glfwSwapBuffers(my_win);
             }
 
-//testing
+//hi
             glfwDestroyWindow(my_win);
     } // void render()
 
