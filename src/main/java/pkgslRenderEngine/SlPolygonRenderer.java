@@ -1,7 +1,10 @@
 package pkgslRenderEngine;
 
 import pkgSlRenderer.slRenderer;
+
+import static org.lwjgl.glfw.GLFW.glfwPollEvents;
 import static org.lwjgl.opengl.GL11.*;
+import java.util.Random;
 
 public class SlPolygonRenderer extends slRenderer {
     // Default properties
@@ -9,7 +12,7 @@ public class SlPolygonRenderer extends slRenderer {
     private int sides = 3;
     private int polygonsToRender = 10;
 
-    // Setters for polygon properties
+    //Setters for polygon properties
     public void setRadius(float radius) {
         this.radius = radius;
     }
@@ -34,25 +37,6 @@ public class SlPolygonRenderer extends slRenderer {
         glEnd();
     }
 
-    // Render randomly placed polygons within the window
-    public void renderRandomPolygons() {
-        for (int i = 0; i < polygonsToRender; i++) {
-            float x = random.nextFloat() * 2 - 1;  // [-1, 1]
-            float y = random.nextFloat() * 2 - 1;  // [-1, 1]
-
-            // Adjust positions to ensure the entire polygon fits within the window
-            float adjustedRadius = radius;
-            if (x + adjustedRadius > 1) x = 1 - adjustedRadius;
-            if (x - adjustedRadius < -1) x = -1 + adjustedRadius;
-            if (y + adjustedRadius > 1) y = 1 - adjustedRadius;
-            if (y - adjustedRadius < -1) y = -1 + adjustedRadius;
-
-            // Color is set in the render loop of slRenderer, so we don't set it here
-
-            generatePolygon(x, y, sides, adjustedRadius);
-        }
-    }
-
     // Helper method to compute radius based on rows and columns
     private float computeRadius(int rows, int cols) {
         float stepX = 2.0f / cols;
@@ -61,8 +45,7 @@ public class SlPolygonRenderer extends slRenderer {
     }
 
     // Generate an array of polygons based on rows and columns
-    public void generatePolygonArray(int rows, int cols) {
-        setSides(3);  // Default to triangle if sides not set
+    public void generatePolygonArray(int rows, int cols, int sides) {
         float adjustedRadius = computeRadius(rows, cols);
 
         float startX = -1 + adjustedRadius;
@@ -74,66 +57,76 @@ public class SlPolygonRenderer extends slRenderer {
             float y = startY + row * stepY;
             for (int col = 0; col < cols; col++) {
                 float x = startX + col * stepX;
+                // Color is set once per shape, so we don't set it here
                 generatePolygon(x, y, sides, adjustedRadius);
             }
         }
     }
 
     // Overloaded method to generate array with specified radius
-    public void generatePolygonArray(float radius) {
+    public void generatePolygonArray(float radius, int sides) {
         this.radius = radius;
         int possibleRows = (int) (2 / (2 * radius));
         int possibleCols = possibleRows;  // Square grid
-        generatePolygonArray(possibleRows, possibleCols);
-    }
-
-    // Overloaded method to generate array with specified rows, cols, and sides
-    public void generatePolygonArray(int rows, int cols, int sides) {
-        setSides(sides);
-        generatePolygonArray(rows, cols);
+        generatePolygonArray(possibleRows, possibleCols, sides);
     }
 
     // Implement the abstract render methods
     @Override
     public void render(int frameDelay, int rows, int cols) {
+        int currentSides = 3;  // Start with triangles
+        int maxSides = 20;     // Maximum number of sides
         while (!windowManager.isGLFWWindowClosed()) {
             glClear(GL_COLOR_BUFFER_BIT);
 
-            // Loop from 3 to 20 sides
-            for (int numSides = 3; numSides <= 20; numSides++) {
-                setSides(numSides);
+            // Generate a consistent color for the current number of sides
+            Random colorRandom = new Random(currentSides); // Seed is the number of sides
+            float r = colorRandom.nextFloat();
+            float g = colorRandom.nextFloat();
+            float b = colorRandom.nextFloat();
+            glColor3f(r, g, b);
 
-                // Randomly compute color on the fly
-                glColor3f(random.nextFloat(), random.nextFloat(), random.nextFloat());
+            // Render the array of polygons with the current number of sides
+            generatePolygonArray(rows, cols, currentSides);
 
-                generatePolygonArray(rows, cols);
+            windowManager.swapBuffers();
+            glfwPollEvents();
 
-                windowManager.swapBuffers();
-                glfwPollEvents();
+            // Frame delay
+            try {
+                Thread.sleep(frameDelay);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
-                // Frame delay
-                try {
-                    Thread.sleep(frameDelay);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+            if (windowManager.isGLFWWindowClosed()) {
+                break;
+            }
 
-                if (windowManager.isGLFWWindowClosed()) {
-                    break;
-                }
+            // Increment the number of sides, loop back to 3 after reaching maxSides
+            currentSides++;
+            if (currentSides > maxSides) {
+                currentSides = 3;
             }
         }
     }
 
-    @Override
+
     public void render(float radius) {
+        int currentSides = 3;  // Start with triangles
+        int maxSides = 20;     // Maximum number of sides
         while (!windowManager.isGLFWWindowClosed()) {
             glClear(GL_COLOR_BUFFER_BIT);
 
-            // Randomly compute color on the fly
-            glColor3f(random.nextFloat(), random.nextFloat(), random.nextFloat());
+            // Generate a consistent color for the current number of sides
+            Random colorRandom = new Random(currentSides); // Seed is the number of sides
+            float r = colorRandom.nextFloat();
+            float g = colorRandom.nextFloat();
+            float b = colorRandom.nextFloat();
+            glColor3f(r, g, b);
 
-            generatePolygonArray(radius);
+            // Render the array of polygons with the current number of sides
+            generatePolygonArray(radius, currentSides);
 
             windowManager.swapBuffers();
             glfwPollEvents();
@@ -144,13 +137,20 @@ public class SlPolygonRenderer extends slRenderer {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
+            if (windowManager.isGLFWWindowClosed()) {
+                break;
+            }
+
+            // Increment the number of sides, loop back to 3 after reaching maxSides
+            currentSides++;
+            if (currentSides > maxSides) {
+                currentSides = 3;
+            }
         }
     }
 
-    private void glfwPollEvents() {
-    }
 
-    @Override
     public void render() {
         render(500, 30, 30);  // Default frame delay and grid size
     }
