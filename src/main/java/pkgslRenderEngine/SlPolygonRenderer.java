@@ -37,7 +37,7 @@ public class SlPolygonRenderer extends slRenderer {
         glEnd();
     }
 
-    // Helper method to compute radius based on rows and columns
+    //Helper method to compute radius based on rows and columns
     private float computeRadius(int rows, int cols) {
         float stepX = 2.0f / cols;
         float stepY = 2.0f / rows;
