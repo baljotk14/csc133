@@ -79,7 +79,7 @@ public class SlPolygonRenderer extends slRenderer {
         while (!windowManager.isGLFWWindowClosed()) {
             glClear(GL_COLOR_BUFFER_BIT);
 
-            // Generate a consistent color for the current number of sides
+            //Generate a consistent color for the current number of sides
             Random colorRandom = new Random(currentSides); // Seed is the number of sides
             float r = colorRandom.nextFloat();
             float g = colorRandom.nextFloat();
