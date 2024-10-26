@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97804e28-2262-45de-9189-d54942983b7e" name="Changes" comment="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle&#10;&#10;updating coordinates for current circle&#10;&#10;singleton pattern for slWindowManager" />
+    <list default="true" id="97804e28-2262-45de-9189-d54942983b7e" name="Changes" comment="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle&#10;&#10;updating coordinates for current circle&#10;&#10;singleton pattern for slWindowManager">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pkgSlUtils/slWindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pkgSlUtils/slWindowManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +78,10 @@
       <workItem from="1728289950405" duration="3287000" />
       <workItem from="1728323183396" duration="7982000" />
       <workItem from="1728338654387" duration="2282000" />
-      <workItem from="1728444028836" duration="4949000" />
+      <workItem from="1728444028836" duration="5257000" />
+      <workItem from="1728451630208" duration="909000" />
+      <workItem from="1728876138739" duration="879000" />
+      <workItem from="1729899276808" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="initialized slRendererEngine.java">
       <option name="closed" value="true" />

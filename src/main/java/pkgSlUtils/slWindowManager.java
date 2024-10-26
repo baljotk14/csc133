@@ -60,14 +60,14 @@ public class slWindowManager {
         return glfwWindowShouldClose(glfw_win);
     }
 
-    public void destroyGlfwWindow() {
-        if (glfw_win != 0) {
-            glfwDestroyWindow(glfw_win);
-            glfw_win = 0;
-        }
-    }
-
-    public int[] getCurrentWindowSize() {
-        return new int[]{windowSize[0], windowSize[1]};
-    }
+//    public void destroyGlfwWindow() {
+//        if (glfw_win != 0) {
+//            glfwDestroyWindow(glfw_win);
+//            glfw_win = 0;
+//        }
+//    }
+//
+//    public int[] getCurrentWindowSize() {
+//        return new int[]{windowSize[0], windowSize[1]};
+//    }
 }
