@@ -44,7 +44,7 @@ public class SlPolygonRenderer extends slRenderer {
         return Math.min(stepX, stepY) / 2 * 0.9f;  // 0.9 to add padding between polygons
     }
 
-    // Generate an array of polygons based on rows and columns
+    //Generate an array of polygons based on rows and columns
     public void generatePolygonArray(int rows, int cols, int sides) {
         float adjustedRadius = computeRadius(rows, cols);
 
