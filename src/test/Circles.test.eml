@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../../out/test/classes"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/test">
+		<testFolder url="file://$MODULE_DIR$/../../src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/../../src/test/resources"/>
+	</contentEntry>
+	<lib name="Gradle: org.apiguardian:apiguardian-api:1.1.2" scope="PROVIDED"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-assimp:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-freetype:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-glfw:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-hwloc:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-nanovg:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-nfd:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-nuklear:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-openal:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-opengl:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-shaderc:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-stb:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl-tootle:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.lwjgl:lwjgl:natives-windows:3.3.3" scope="RUNTIME"/>
+	<lib name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.junit.platform:junit-platform-engine:1.9.1" scope="RUNTIME"/>
+	<levels>
+		<level name="Gradle: org.lwjgl:lwjgl-assimp:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-cuda:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-freetype:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-glfw:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-hwloc:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-jawt:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-nanovg:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-nfd:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-nuklear:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-odbc:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-openal:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-opencl:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-opengl:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-shaderc:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-stb:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-tootle:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl:3.3.3" value="project"/>
+		<level name="Gradle: org.joml:joml:1.10.5" value="project"/>
+		<level name="Gradle: org.junit.jupiter:junit-jupiter:5.9.1" value="project"/>
+		<level name="Gradle: org.junit.jupiter:junit-jupiter-params:5.9.1" value="project"/>
+		<level name="Gradle: org.junit.jupiter:junit-jupiter-api:5.9.1" value="project"/>
+		<level name="Gradle: org.apiguardian:apiguardian-api:1.1.2" value="project"/>
+		<level name="Gradle: org.junit.platform:junit-platform-commons:1.9.1" value="project"/>
+		<level name="Gradle: org.opentest4j:opentest4j:1.2.0" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-assimp:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-freetype:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-glfw:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-hwloc:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-nanovg:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-nfd:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-nuklear:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-openal:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-opengl:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-shaderc:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-stb:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl-tootle:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.lwjgl:lwjgl:natives-windows:3.3.3" value="project"/>
+		<level name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.1" value="project"/>
+		<level name="Gradle: org.junit.platform:junit-platform-engine:1.9.1" value="project"/>
+	</levels>
+</component>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: org.apiguardian:apiguardian-api:1.1.2">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-assimp:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-assimp/3.3.3/c2c34011cbda30ed8cf98bc5cbf97b49afe5279a/lwjgl-assimp-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-cuda:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-cuda/3.3.3/e2de3beeba3e4c826317e31519a40f0585160acf/lwjgl-cuda-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-freetype:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/a0db6c84a8becc8ca05f9dbfa985edc348a824c7/lwjgl-freetype-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-glfw:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/efa1eb78c5ccd840e9f329717109b5e892d72f8e/lwjgl-glfw-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-hwloc:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-hwloc/3.3.3/68333a022d5842b7bff95c70e4c3e1b2f126e783/lwjgl-hwloc-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-jawt:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.3.3/15479071013804d88cc810856fcc2548b457376c/lwjgl-jawt-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-nanovg:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-nanovg/3.3.3/37f0b9fc142948c3b2c6cd563db7233b14b9640c/lwjgl-nanovg-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-nfd:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-nfd/3.3.3/f1b41d3a0a2f5cd2a55a6a59a618c87d0348681c/lwjgl-nfd-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-nuklear:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-nuklear/3.3.3/d120a8ab01987e285f83f43f862bef728011d97d/lwjgl-nuklear-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-odbc:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-odbc/3.3.3/1719d4813fba2b4272afddcf30db98ec32e8bd37/lwjgl-odbc-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-openal:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/daada81ceb5fc0c291fbfdd4433cb8d9423577f2/lwjgl-openal-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-opencl:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opencl/3.3.3/fdf4a5cce0b7499914ac96a87d75fa895a4e0699/lwjgl-opencl-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-opengl:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/2f6b0147078396a58979125a4c947664e98293a/lwjgl-opengl-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-shaderc:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-shaderc/3.3.3/ae740d58fdc809c4350358a872b076bacbec27c1/lwjgl-shaderc-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-stb:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/25dd6161988d7e65f71d5065c99902402ee32746/lwjgl-stb-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-tootle:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tootle/3.3.3/c6989921add57a1f59936bc4544431df4b837c8b/lwjgl-tootle-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.joml:joml:1.10.5">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.10.5/22566d58af70ad3d72308bab63b8339906deb649/joml-1.10.5.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-assimp:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-assimp/3.3.3/d90ccdade594716062975cffd1431d387f770ac4/lwjgl-assimp-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-freetype:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-freetype/3.3.3/81091b006dbb43fab04c8c638e9ac87c51b4096d/lwjgl-freetype-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-glfw:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/e449e28b4891fc423c54c85fbc5bb0b9efece67a/lwjgl-glfw-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-hwloc:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-hwloc/3.3.3/ea032ea737568d700f43cc9f052d51384ce20ebe/lwjgl-hwloc-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-nanovg:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-nanovg/3.3.3/ccfbc346c4ce0737b7fe758d6337a3741af2f256/lwjgl-nanovg-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-nfd:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-nfd/3.3.3/3a39132eef695dcb7631adc1d02e493527940d10/lwjgl-nfd-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-nuklear:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-nuklear/3.3.3/3132690c8cbbdd7c948eb233610151b6a6c62b9a/lwjgl-nuklear-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-openal:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/cf83862ae95d98496b26915024c7e666d8ab1c8f/lwjgl-openal-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-opengl:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/e6c1eec8be8a71951b830a4d69efc01c6531900c/lwjgl-opengl-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-shaderc:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-shaderc/3.3.3/2bdcb9d4c1a8debf8c82dcb6968c3f23f126af6b/lwjgl-shaderc-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-stb:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/1d9facdf6541de114b0f963be33505b7679c78cb/lwjgl-stb-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl-tootle:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tootle/3.3.3/6de41fb81ea077cb3829b25c6636987f011997fc/lwjgl-tootle-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.lwjgl:lwjgl:natives-windows:3.3.3">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/a5ed18a2b82fc91b81f40d717cb1f64c9dcb0540/lwjgl-3.3.3-natives-windows.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter:5.9.1">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.9.1/9274d3757e224bc02eae367bd481062a263c150b/junit-jupiter-5.9.1.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-params:5.9.1">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.9.1/ffcd1013edaeee112be11fcddeb38882d79238de/junit-jupiter-params-5.9.1.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-api:5.9.1">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.1/7bb53fbc0173e9f6a9d21d58297af94b1f2f9ce1/junit-jupiter-api-5.9.1.jar" />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-commons:1.9.1">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.1/3145f821b5cd10abcdc5f925baa5fffa6f1b628f/junit-platform-commons-1.9.1.jar" />
+  </library>
+  <library name="Gradle: org.opentest4j:opentest4j:1.2.0">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.9.1">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.1/1bf771097bde296c3ab174861954e8aafaaf2e94/junit-jupiter-engine-5.9.1.jar" />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-engine:1.9.1">
+    <archive path="C:/Users/Owner/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.1/83591e5089d6cea5f324aa3ecca9b19d5a275803/junit-platform-engine-1.9.1.jar" />
+  </library>
+</eclipse-userlibraries>
+
