@@ -92,7 +92,7 @@ public class SlPolygonRenderer extends slRenderer {
             windowManager.swapBuffers();
             glfwPollEvents();
 
-            // Frame delay
+            //Frame delay
             try {
                 Thread.sleep(frameDelay);
             } catch (InterruptedException e) {
