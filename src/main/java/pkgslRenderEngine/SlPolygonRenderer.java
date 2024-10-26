@@ -86,7 +86,7 @@ public class SlPolygonRenderer extends slRenderer {
             float b = colorRandom.nextFloat();
             glColor3f(r, g, b);
 
-            // Render the array of polygons with the current number of sides
+            //Render the array of polygons with the current number of sides
             generatePolygonArray(rows, cols, currentSides);
 
             windowManager.swapBuffers();
