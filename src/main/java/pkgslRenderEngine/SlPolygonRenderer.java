@@ -63,7 +63,7 @@ public class SlPolygonRenderer extends slRenderer {
         }
     }
 
-    // Overloaded method to generate array with specified radius
+    //Overloaded method to generate array with specified radius
     public void generatePolygonArray(float radius, int sides) {
         this.radius = radius;
         int possibleRows = (int) (2 / (2 * radius));
