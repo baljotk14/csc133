@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97804e28-2262-45de-9189-d54942983b7e" name="Changes" comment="working program but only with triangles">
+    <list default="true" id="97804e28-2262-45de-9189-d54942983b7e" name="Changes" comment="Frame delay">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/git.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pkgBackendEngine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pkgBackendEngine/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pkgSlRenderer/slRenderEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pkgSlRenderer/slRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pkgSlRenderer/slRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pkgSlUtils/slWindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pkgSlUtils/slWindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pkgslRenderEngine/SlPolygonRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pkgslRenderEngine/SlPolygonRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/output.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Owner/IdeaProjects/Circles - Copy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,6 +83,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Polygons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Polygons" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +121,13 @@
       <workItem from="1728451630208" duration="909000" />
       <workItem from="1728876138739" duration="879000" />
       <workItem from="1729899276808" duration="1752000" />
-      <workItem from="1729901199749" duration="12999000" />
+      <workItem from="1729901199749" duration="17064000" />
+      <workItem from="1729973003813" duration="2836000" />
+      <workItem from="1729979371691" duration="82000" />
+      <workItem from="1729979533408" duration="142000" />
+      <workItem from="1729979740308" duration="164000" />
+      <workItem from="1729979997805" duration="59000" />
+      <workItem from="1729980312272" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="initialized slRendererEngine.java">
       <option name="closed" value="true" />
@@ -164,7 +193,87 @@
       <option name="project" value="LOCAL" />
       <updated>1729916241053</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="working program but only with triangles - fixed">
+      <option name="closed" value="true" />
+      <created>1729916532347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729916532347</updated>
+    </task>
+    <task id="LOCAL-00010" summary="    Setters for polygon properties">
+      <option name="closed" value="true" />
+      <created>1729923002623</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923002623</updated>
+    </task>
+    <task id="LOCAL-00011" summary="generate a single polygon at a given center">
+      <option name="closed" value="true" />
+      <created>1729923032968</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923032968</updated>
+    </task>
+    <task id="LOCAL-00012" summary="compute radius based on rows and columns">
+      <option name="closed" value="true" />
+      <created>1729923061542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923061542</updated>
+    </task>
+    <task id="LOCAL-00013" summary=" Generate an array of polygons">
+      <option name="closed" value="true" />
+      <created>1729923093854</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923093854</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Overloaded method to generate array">
+      <option name="closed" value="true" />
+      <created>1729923115646</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923115646</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implement the abstract render methods">
+      <option name="closed" value="true" />
+      <created>1729923137361</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923137361</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Generate a consistent color">
+      <option name="closed" value="true" />
+      <created>1729923181123</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923181123</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Render the array of polygons with the current number">
+      <option name="closed" value="true" />
+      <created>1729923226883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923226883</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Frame delay">
+      <option name="closed" value="true" />
+      <created>1729923261369</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923261369</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +310,16 @@
     <MESSAGE value="initialized slRendererEngine.java&#10;&#10;just updated random color for current circle&#10;&#10;updating coordinates for current circle&#10;&#10;singleton pattern for slWindowManager&#10;&#10;commented hi" />
     <MESSAGE value="testing main" />
     <MESSAGE value="working program but only with triangles" />
-    <option name="LAST_COMMIT_MESSAGE" value="working program but only with triangles" />
+    <MESSAGE value="working program but only with triangles - fixed" />
+    <MESSAGE value="    Setters for polygon properties" />
+    <MESSAGE value="generate a single polygon at a given center" />
+    <MESSAGE value="compute radius based on rows and columns" />
+    <MESSAGE value=" Generate an array of polygons" />
+    <MESSAGE value="Overloaded method to generate array" />
+    <MESSAGE value="Implement the abstract render methods" />
+    <MESSAGE value="Generate a consistent color" />
+    <MESSAGE value="Render the array of polygons with the current number" />
+    <MESSAGE value="Frame delay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frame delay" />
   </component>
 </project>
